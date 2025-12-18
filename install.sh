@@ -11,7 +11,7 @@ sudo apt install -y nginx
 # --- 2. گرفتن اطلاعات از کاربر ---
 read -p "Enter your panel address (e.g., panel.example.com): " PANEL_ADDR
 read -p "Enter your panel port (e.g., 443): " PANEL_PORT
-read -p "Enter admin username: " ADMIN_USERfr
+read -p "Enter admin username: " ADMIN_USER
 read -sp "Enter admin password: " ADMIN_PASS
 echo
 read -p "Enter SSL certificate path: " CERT_PATH
